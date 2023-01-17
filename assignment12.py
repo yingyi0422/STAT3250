@@ -1,37 +1,9 @@
-##
-## File: assignment12.py (STAT 3250)
-## Topic: Assignment 12
-##
-
-##  For this assignment we revisit past men's NCAA basketball tournaments 
-##  (including the glorious 2019 edition) using data from the file 
-##
-##      'ncaa.csv':  NCAA Men's Tournament Scores, 1985-2019
-##
-##  The organization of the file is fairly clear.  Each record has information
-##  about one game, including the year, the teams, the final score, and each 
-##  team's tournament seed.  
-
-##  Two important points:
-##    1) Each team is assigned a "seed" at the start of the tournament.  The
-##       teams thought to be better are assigned smaller number seeds.  (So 
-##       the best teams are assigned 1 and the worst assigned 16.)  In this 
-##       assignment a "lower seed" refers to a worse team and hence larger 
-##       seed number, with the opposite meaning for "higher seed". 
-##    2) All questions refer only to the data in this in 'ncaa.csv' so you
-##       don't need to worry about tournaments prior to 1985.
-
 ##  The data set is from Data.World, with the addition of the 2019
 ##  tournament provided by your dedicated instructors. 
 
 ##  Note: Most of the questions on this assignment can be done without the 
 ##  use of loops, either explicitly or implicitly (apply). As usual, scoring 
 ##  will take this into account.
-
-##  Note: The coding methods required for this abbreviated assignment have
-##  been covered in previous assignments, so there are no 'demo' files
-##  with this assignment.
-
 
 ## 1.  Find all schools that have won the championship. Report your results in
 ##     a Series that has the schools as index and number of championships for
